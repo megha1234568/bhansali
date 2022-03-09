@@ -195,22 +195,7 @@
   font-size: 2.5rem;
   font-weight: bold;
 }
-#hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-size: 13px;
-  letter-spacing: 2px;
-  display: inline-block;
-  padding: 12px 28px;
-  border-radius: 4px;
-  transition: ease-in-out 0.3s;
-  color: #fff;
-  background: #3498db;
-  text-transform: uppercase;
-}
-#hero .btn-get-started:hover {
-  background: #4ea5e0;
-}
+
 @media (max-width: 992px) {
   #hero {
     height: calc(100vh - 70px);
@@ -233,9 +218,11 @@
 --------------------------------------------------------------*/
 .services{
   margin: 4rem 0;
+  
 }
 .section-title{
   text-align: center;
+  letter-spacing: 1px;
 }
 .section-title h2{
   font-weight: bold;
@@ -298,19 +285,15 @@
   text-decoration: none;
 }
 
-.services .title::after {
-  content: "";
-  position: absolute;
-  display: block;
-  width: 50px;
-  height: 2px;
-  background: #000080;
-  bottom: 0;
-  left: calc(50% - 25px);
-}
+
 .services .description {
   line-height: 24px;
   font-size: 14px;
+}
+@media (max-width: 768px){
+  .section-title{
+    padding:2rem 3rem
+  }
 }
 
 /*--------------------------------------------------------------
@@ -319,20 +302,28 @@
 #about{
   height: 100vh;
   width: 100vw;
-  padding: 3rem;
-  padding-left: 1rem;
-  background: url("img/new2.jpg") center center no-repeat;
+  background: url("img/images.jpg")  center center no-repeat;
   background-size: cover;
+}
+
+#about .container{
+  width: 100vw;
+  height: 100vw;
+  padding: 4rem;
+  text-align: center;
+  background-color: rgba(0,0,0,0.7);
+  letter-spacing: 2px;
 }
 .about{
   /* background-color: rgb(60, 163, 231); */
-  color: white;
+  color: rgb(242, 245, 247);
 }
 .about h3 {
   font-weight: 700;
-  font-size: 34px;
+  font-size: 36px;
 }
 .about h4 {
+  line-height: 40px;
   font-size: 18px;
   font-weight: 700;
   margin-top: 5px;
@@ -344,6 +335,27 @@
 }
 .about p {
   font-size: 15px;
+}
+@media (max-width: 1000px){
+  #about{
+    height: 140vh;
+  }
+}
+@media (max-width: 770px){
+  #about{
+    height: 160vh;
+  }
+  #about .container{
+    height: 160vh;
+  }
+}
+@media (max-width: 530px){
+  #about{
+    height: 180vh;
+  }
+  #about .container{
+    height: 180vh;
+  }
 }
 
 /*--------------------------------------------------------------
