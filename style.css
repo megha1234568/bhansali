@@ -299,62 +299,39 @@
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-#about{
-  height: 100vh;
-  width: 100vw;
-  background: url("img/images.jpg")  center center no-repeat;
-  background-size: cover;
-}
-
-#about .container{
-  width: 100vw;
-  height: 100vw;
-  padding: 4rem;
-  text-align: center;
-  background-color: rgba(0,0,0,0.7);
-  letter-spacing: 2px;
-}
 .about{
-  /* background-color: rgb(60, 163, 231); */
-  color: rgb(242, 245, 247);
+  background-color: rgb(87, 87, 201);
+  color: white;
+  padding: 3rem 1rem;
 }
-.about h3 {
+.about .content h3 {
   font-weight: 700;
-  font-size: 36px;
+  font-size: 34px;
+  margin-bottom: 30px;
 }
-.about h4 {
-  line-height: 40px;
-  font-size: 18px;
-  font-weight: 700;
-  margin-top: 5px;
+/* .about .content p {
+  margin-bottom: 30px;
+} */
+.image{
+  margin: auto;
+  width: 455px;
+  height: 400px;
 }
-.about i {
-  font-size: 48px;
-  margin-top: 15px;
-  color: #8b97b3;
+.outer-container{
+  padding-top: 2rem;
 }
-.about p {
-  font-size: 15px;
+.image img{
+  width: 100%;
+  height: 100%;
 }
-@media (max-width: 1000px){
-  #about{
-    height: 140vh;
+@media (max-width: 1200px) {
+  .about .content {
+    padding-right: 0;
   }
 }
-@media (max-width: 770px){
-  #about{
-    height: 160vh;
-  }
-  #about .container{
-    height: 160vh;
-  }
-}
-@media (max-width: 530px){
-  #about{
-    height: 180vh;
-  }
-  #about .container{
-    height: 180vh;
+@media (max-width: 768px) {
+  .about {
+    text-align: center;
   }
 }
 
@@ -559,5 +536,13 @@
   color: white;
 }
 
-
+.portfolio-title p{
+   font-size: 22px;
+}
+.products{
+  margin-bottom: 2rem;
+}
+.products i{
+  margin-right: 3px;
+}
 
