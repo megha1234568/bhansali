@@ -348,7 +348,7 @@
   padding: 5rem 0;
 }
 .section h2 {
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 500;
   padding: 0;
   line-height: 1px;
@@ -361,20 +361,12 @@
 .section h2::after {
   content: "";
   width: 120px;
-  height: 1px;
+  height: 3px;
   display: inline-block;
   background: #fd9042;
   margin: 4px 10px;
 }
-.section p {
-  margin: 0;
-  margin: 0;
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #2a2c39;
-}
+
 
 
 
@@ -539,14 +531,24 @@
   font-size: 1rem;
   color: white;
 }
-
+.portfolio-title{
+  padding-right: 5rem;
+}
 .portfolio-title p{
-   font-size: 22px;
+   font-size: 18px;
 }
 .products{
   margin-bottom: 2rem;
 }
 .products i{
   margin-right: 3px;
+}
+.title{
+  font-size: 18px;
+}
+.product-title{
+  font-size: 20px;
+  padding-bottom: 2rem;
+
 }
 
