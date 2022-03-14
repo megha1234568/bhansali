@@ -382,6 +382,11 @@ h2,h3{
 }
 .section-headline{
   padding-bottom: 4rem;
+  
+}
+.section-headline h2{
+  font-size: 3rem;
+  font-weight: bold;
 }
 .contact-area {
   padding-top: 5rem;
