@@ -4,6 +4,7 @@
 }
 h2,h3{
   font-size: 30px;
+  font-weight: bold;
 }
 /*--------------------------------------------------------------
 # Back to top button
@@ -243,12 +244,6 @@ h2,h3{
   text-align: left;
   padding-top: 2rem;
 }
-.section-title h2{
-  font-weight: bold;
-  font-size: 3rem;
-  color: #000080;
-  margin-bottom: 3rem;
-}
 
 .services .icon-box {
   margin-top: 3rem;
@@ -306,13 +301,13 @@ h2,h3{
 # About
 --------------------------------------------------------------*/
 .about{
-  background-color: rgb(87, 87, 201);
+  background-color: rgb(24,56,132);
   color: white;
   padding: 3rem 1rem;
 }
-.about .content h3 {
-  font-weight: 700;
-  font-size: 34px;
+.about .content h2 {
+  font-weight: bold;
+  font-size: 3rem;
   margin-bottom: 30px;
 }
 /* .about .content p {
@@ -321,7 +316,7 @@ h2,h3{
 .image{
   margin: auto;
   width: 455px;
-  height: 350px;
+  height: 400px;
 }
 .outer-container{
   padding-top: 2rem;
@@ -362,7 +357,6 @@ h2,h3{
   line-height: 1px;
   margin: 0 0 5px 0;
   letter-spacing: 2px;
-  text-transform: uppercase;
   color: #000080;
   font-family: "Poppins", sans-serif;
 }
@@ -383,7 +377,7 @@ h2,h3{
 # Contact
 --------------------------------------------------------------*/
 #contact{
-  background-color: #05036A;
+  background-color: rgb(24,56,132);
   color: white;
 }
 .section-headline{
@@ -538,6 +532,14 @@ h2,h3{
   text-transform: capitalize;
   font-size: 1rem;
   color: white;
+}
+
+.section h2{
+  font-size: 3rem;
+  font-weight: bold;
+}
+.product-title{
+  font-size: 18px;
 }
 .portfolio-title p{
    font-size: 18px;
