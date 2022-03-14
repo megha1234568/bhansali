@@ -1,4 +1,10 @@
-
+*{
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+h2,h3{
+  font-size: 30px;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -315,7 +321,7 @@
 .image{
   margin: auto;
   width: 455px;
-  height: 400px;
+  height: 350px;
 }
 .outer-container{
   padding-top: 2rem;
@@ -342,7 +348,9 @@
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
-
+#portfolio{
+  text-align: left;
+}
 
 .section {
   padding: 5rem 0;
@@ -530,9 +538,6 @@
   text-transform: capitalize;
   font-size: 1rem;
   color: white;
-}
-.portfolio-title{
-  padding-right: 5rem;
 }
 .portfolio-title p{
    font-size: 18px;
