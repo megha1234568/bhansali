@@ -373,14 +373,7 @@ h2,h3{
   color: #000080;
   font-family: "Poppins", sans-serif;
 }
-.section h2::after {
-  content: "";
-  width: 120px;
-  height: 3px;
-  display: inline-block;
-  background: #fd9042;
-  margin: 4px 10px;
-}
+
 
 
 
