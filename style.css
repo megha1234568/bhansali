@@ -300,10 +300,24 @@ h2,h3{
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about{
-  background-color: rgb(24,56,132);
+#about{
+  /* background-color: rgb(24,56,132); */
+  background: url("about-585x1275.jpg") center center no-repeat;
+  background-size: cover;
   color: white;
   padding: 3rem 1rem;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#about:before {
+  content: "";
+  background: rgba(56, 64, 70, 0.7);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 .about .content h2 {
   font-weight: bold;
